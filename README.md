@@ -2,13 +2,13 @@
 
 # 🤖 UR3e Human-to-Robot Handover Based on Stereo Vision 👁️
 
-[🇬🇧 English](#english) | [🇨🇳 中文](#chinese)
+[English](#english) | [中文](#chinese)
 
 </div>
 
 <span id="english"></span>
 
-## 🇬🇧 English
+## English
 
 **Note:** This project is currently under development and will continue to be updated.
 
@@ -16,7 +16,7 @@
 - 🤖 UR3e robot driver launch and control.
 - 📷 RealSense D435i camera startup.
 - 👁️ Publishing hand-eye calibration results.
-- 🤏 Robotiq 2F gripper ROS node control.
+- 🦾 Robotiq 2F gripper ROS node control.
 - 📦 Vision-based pick and place (HSV color detection).
 - 🎯 Real-time object tracking (HSV).
 - 📍 Moving the robot to specific coordinates.
@@ -89,7 +89,7 @@ python3 ./src/vision_pick_and_place/move_to_specific_place.py
 
 <span id="chinese"></span>
 
-## 🇨🇳 中文
+## 中文
 
 **注：** 本项目目前正在开发中，后续将继续更新。
 
@@ -97,7 +97,7 @@ python3 ./src/vision_pick_and_place/move_to_specific_place.py
 - 🤖 启动 UR3e 机械臂驱动。
 - 📷 启动 RealSense D435i 相机。
 - 👁️ 发布手眼标定结果。
-- 🤏 启动 Robotiq 2F 夹爪 ROS 节点。
+- 🦾 启动 Robotiq 2F 夹爪 ROS 节点。
 - 📦 运行抓取、放置程序 (基于 HSV)。
 - 🎯 运行实时跟踪程序 (基于 HSV)。
 - 📍 运行移动到指定位置程序。
