@@ -51,7 +51,7 @@ cd ~/workspace/
 git clone --recurse-submodules https://github.com/IllusionMZX/UR3e_Handover_Vision
 
 # Enter the workspace source directory
-cd ./src/
+cd ./UR3e_Handover_Vision/
 
 # Install dependencies
 rosdep install --from-paths src --ignore-src -r -y
@@ -132,7 +132,7 @@ cd ~/workspace/
 git clone --recurse-submodules https://github.com/IllusionMZX/UR3e_Handover_Vision
 
 # 进入工作空间
-cd ./src/
+cd ./UR3e_Handover_Vision/
 
 # 下载依赖包
 rosdep install --from-paths src --ignore-src -r -y
