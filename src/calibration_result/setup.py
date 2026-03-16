@@ -13,6 +13,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'ur3e_eye_in_hand'), glob('ur3e_eye_in_hand/*.launch.py')),
+        (os.path.join('share', package_name, 'ur3e_eye_to_hand'), glob('ur3e_eye_to_hand/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
