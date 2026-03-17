@@ -262,6 +262,9 @@ try:
                     y, x = pos[len(pos)//2]
                     cv2.putText(display, label, (x, y), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
 
+        if vlm_running:
+            cv2.putText(display, "Processing...", (IMG_WIDTH // 2 - 80, IMG_HEIGHT // 2), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 255), 3)
+
         fps = 1.0 / (time.time() - t0)
         cv2.putText(display, f"FPS: {fps:.1f} | v=Detect r=Reset", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
         
