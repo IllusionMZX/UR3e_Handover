@@ -14,4 +14,4 @@
 	url = https://github.com/IllusionMZX/moveit_calibration.git
 [submodule "src/graspnet-baseline"]
 	path = src/graspnet-baseline
-	url = https://github.com/IllusionMZX/graspnet-baseline.git
+	url = https://github.com/IllusionMZX/graspnet-baseline-ur.git
