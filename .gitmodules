@@ -1,7 +1,3 @@
-[submodule "src/Universal_Robots_ROS2_Driver"]
-	path = src/Universal_Robots_ROS2_Driver
-	url = https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-	branch = humble
 [submodule "src/serial"]
 	path = src/serial
 	url = https://github.com/tylerjw/serial.git
@@ -15,3 +11,6 @@
 [submodule "src/graspnet-baseline"]
 	path = src/graspnet-baseline
 	url = https://github.com/IllusionMZX/graspnet-baseline-ur.git
+[submodule "src/Fast-FoundationStereoPhysics"]
+	path = src/Fast-FoundationStereoPhysics
+	url = https://github.com/IllusionMZX/FFS-Physics
