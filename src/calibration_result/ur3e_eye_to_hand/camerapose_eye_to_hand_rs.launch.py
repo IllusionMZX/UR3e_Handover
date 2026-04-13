@@ -1,5 +1,5 @@
 """ Static transform publisher acquired via MoveIt 2 hand-eye calibration """
-""" EYE-TO-HAND: base_link -> camera_color_optical_frame """
+""" EYE-TO-HAND: base_link -> camera_external_color_optical_frame """
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
@@ -14,7 +14,7 @@ def generate_launch_description() -> LaunchDescription:
                 "--frame-id",
                 "base_link",
                 "--child-frame-id",
-                "camera_color_optical_frame",
+                "camera_external_color_optical_frame",
                 "--x",
                 "-0.337647",
                 "--y",

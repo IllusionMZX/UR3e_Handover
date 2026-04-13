@@ -1,6 +1,7 @@
 build/
 install/
 log/
+latex/
 *.pyc
 
 __pycache__
