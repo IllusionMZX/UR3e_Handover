@@ -1,5 +1,5 @@
 """ Static transform publisher acquired via MoveIt 2 hand-eye calibration """
-""" EYE-TO-HAND: base_link -> camera_external_color_optical_frame """
+""" EYE-IN-HAND: tool0 -> zed_left_camera_frame_optical """
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
@@ -12,29 +12,29 @@ def generate_launch_description() -> LaunchDescription:
             output="log",
             arguments=[
                 "--frame-id",
-                "base_link",
+                "tool0",
                 "--child-frame-id",
-                "camera_external_color_optical_frame",
+                "zed_inhand_camera_frame_optical",
                 "--x",
-                "-0.337647",
+                "-0.0662321",
                 "--y",
-                "-0.240584",
+                "-0.043534",
                 "--z",
-                "0.56153",
+                "0.0530993",
                 "--qx",
-                "-0.705976",
+                "0.0242133",
                 "--qy",
-                "-0.0665758",
+                "-0.00928276",
                 "--qz",
-                "0.0387974",
+                "-0.021766",
                 "--qw",
-                "0.704031",
+                "0.999427",
                 # "--roll",
-                # "1.56506",
+                # "0.0480224",
                 # "--pitch",
-                # "-2.99252",
+                # "-0.0196102",
                 # "--yaw",
-                # "3.10177",
+                # "-0.0430792",
             ],
         ),
     ]

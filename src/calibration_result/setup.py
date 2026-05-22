@@ -1,8 +1,19 @@
 import os
 from glob import glob
+from pathlib import Path
+
 from setuptools import setup
 
 package_name = 'calibration_result'
+package_root = Path(__file__).resolve().parent
+resource_dir = package_root / 'resource'
+resource_marker = resource_dir / package_name
+
+# ament_python packages expect a resource index marker file.
+# Create it on demand so colcon can install this package even if the marker
+# was not committed with the package skeleton.
+resource_dir.mkdir(exist_ok=True)
+resource_marker.touch(exist_ok=True)
 
 setup(
     name=package_name,

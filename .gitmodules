@@ -11,6 +11,9 @@
 [submodule "src/graspnet-baseline"]
 	path = src/graspnet-baseline
 	url = https://github.com/IllusionMZX/graspnet-baseline-ur.git
-[submodule "src/Fast-FoundationStereoPhysics"]
-	path = src/Fast-FoundationStereoPhysics
-	url = https://github.com/IllusionMZX/FFS-Physics
+[submodule "src/Fast-FoundationStereo"]
+	path = src/Fast-FoundationStereo
+	url = https://github.com/IllusionMZX/FFS-Deploy
+[submodule "src/zed-ros2-wrapper"]
+	path = src/zed-ros2-wrapper
+	url = https://github.com/stereolabs/zed-ros2-wrapper.git
