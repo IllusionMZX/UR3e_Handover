@@ -17,3 +17,6 @@
 [submodule "src/zed-ros2-wrapper"]
 	path = src/zed-ros2-wrapper
 	url = https://github.com/stereolabs/zed-ros2-wrapper.git
+[submodule "src/graspnetAPI"]
+	path = src/graspnetAPI
+	url = https://github.com/IllusionMZX/graspnetAPI
