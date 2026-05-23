@@ -1,4 +1,45 @@
 build/
 install/
 log/
+latex/
 *.pyc
+
+__pycache__
+*.vscode
+cfg.yaml
+*.pth
+*.pkl
+*.pyc
+*.so
+*.egg-info
+*.pdf
+
+# Ignore weight files but keep the folder structure
+weights/*
+!weights/.gitkeep
+output/
+.claude/
+.codex
+.agents
+
+# SAM2 checkpoints (users download separately per README)
+SAM2_streaming/checkpoints/
+SAM2_streaming/__pycache__/
+SAM2_streaming/sam2/__pycache__/
+
+# User-specific calibration data
+calibration/calib_imgs/
+
+# Model weights
+*.pt
+*.ts
+*.onnx
+*.engine
+
+# Temporary files
+DepthCamera_*.json
+DepthCapture_*.png
+
+Fast-FoundationStereo/calibration/calibration_realsense/calib_imgs/
+Fast-FoundationStereo/calibration/calibration_usb_camera/calib_imgs/
+Fast-FoundationStereo/ffsd_demos/outputs/

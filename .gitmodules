@@ -1,7 +1,3 @@
-[submodule "src/Universal_Robots_ROS2_Driver"]
-	path = src/Universal_Robots_ROS2_Driver
-	url = https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver.git
-	branch = humble
 [submodule "src/serial"]
 	path = src/serial
 	url = https://github.com/tylerjw/serial.git
@@ -12,3 +8,15 @@
 [submodule "src/moveit_calibration"]
 	path = src/moveit_calibration
 	url = https://github.com/IllusionMZX/moveit_calibration.git
+[submodule "src/graspnet-baseline"]
+	path = src/graspnet-baseline
+	url = https://github.com/IllusionMZX/graspnet-baseline-ur.git
+[submodule "src/Fast-FoundationStereo"]
+	path = src/Fast-FoundationStereo
+	url = https://github.com/IllusionMZX/FFS-Deploy
+[submodule "src/zed-ros2-wrapper"]
+	path = src/zed-ros2-wrapper
+	url = https://github.com/stereolabs/zed-ros2-wrapper.git
+[submodule "src/graspnetAPI"]
+	path = src/graspnetAPI
+	url = https://github.com/IllusionMZX/graspnetAPI
