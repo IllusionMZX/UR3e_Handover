@@ -1,0 +1,18 @@
+# This config uses industrial_ci (https://github.com/ros-industrial/industrial_ci.git).
+# For troubleshooting, see readme (https://github.com/ros-industrial/industrial_ci/blob/master/README.rst)
+
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  industrial_ci:
+    strategy:
+      matrix:
+        env:
+          - {ROS_DISTRO: jazzy, ROS_REPO: main}
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: 'ros-industrial/industrial_ci@master'
+        env: ${{matrix.env}}

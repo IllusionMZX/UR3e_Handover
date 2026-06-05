@@ -1,0 +1,46 @@
+__pycache__
+*.vscode
+cfg.yaml
+*.pth
+*.pkl
+*.pyc
+*.so
+*.egg-info
+
+
+
+# Ignore weight files but keep the folder structure
+weights/*
+!weights/.gitkeep
+output/
+.claude/
+
+# SAM2 checkpoints (users download separately per README)
+SAM2_streaming/checkpoints/
+SAM2_streaming/__pycache__/
+SAM2_streaming/sam2/__pycache__/
+
+# User-specific calibration data
+calibration/calib_imgs/
+
+# Model weights
+*.pt
+*.ts
+*.onnx
+*.engine
+
+# Temporary files
+DepthCamera_*.json
+DepthCapture_*.png
+
+
+calibration/calibration_realsense/calib_imgs/**
+calibration/calibration_realsense/stereo_calib_rs.yaml
+calibration/calibration_realsense/stereo_sn_rs.yaml
+calibration/calibration_realsense/calib_imgs/
+
+calibration/calibration_usb_camera/stereo_calib.yaml
+calibration/calibration_usb_camera/K_custom.txt
+calibration/calibration_usb_camera/calib_imgs/
+
+ffsd_demos/outputs/
