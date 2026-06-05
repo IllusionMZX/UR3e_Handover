@@ -36,15 +36,15 @@
 
 ### 2. 🚀 安装与使用
 
-更详细的程序使用教程请参考：[UR3e Handover 使用教程](https://protective-calendula-c55.notion.site/UR3e-368aa15567ec806f9505d4200c1ea5f3?source=copy_link)（更新中...）
+更详细的程序使用教程请参考：[UR3e Handover 使用教程](https://protective-calendula-c55.notion.site/UR3e-368aa15567ec806f9505d4200c1ea5f3?source=copy_link)
 
 ```bash
 mkdir -p ~/workspace/
 
 cd ~/workspace/
 
-# 递归 clone 仓库，包含所有 submodule
-git clone --recurse-submodules https://github.com/IllusionMZX/UR3e_Handover
+# clone 仓库
+git clone https://github.com/IllusionMZX/UR3e_Handover
 
 # 进入工作空间
 cd ./UR3e_Handover/
